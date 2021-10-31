@@ -28,6 +28,7 @@ class MainActivity : AppCompatActivity() {
             adapter.items = it
             adapter.notifyDataSetChanged()
         })
+
         fab.setOnClickListener {
             AddShoppingItemTextDialogue(
                 this,
